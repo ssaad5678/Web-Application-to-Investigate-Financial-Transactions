@@ -106,12 +106,10 @@ Flask specific settings are in the `application/config.py` file
 
 ## :man_teacher:: Learning
 
-This was my first project developing a complete Flask application from start to finish. I spent a lot more time reading documentation for Flask packages and plugins than actually writing code.
+This was a project where i developed a complete Flask application from start to finish. I spent a lot more time reading documentation for Flask packages and plugins than actually writing code.
 
 I learned that it is much easier to use a plug-in than trying to solve a big problem "by hand". There are many Flask plugins available to solve most problems that may arise.
 
 Halfway through the project, I was forced to change the database from `MySQL` to `PostgreSQL` because the former is not compatible with the production computer architecture. I learned to always check in advance the compatibility of docker images and Python packages with all machines involved.
 
 I learned to use `SQLAlchemy` to model and manipulate the database, including relationships and constraints. I also had to do several migrations during the project, and for that I had to learn how to use the `Alembic` package.
-
-<p align="center"><img src="https://github.com/ErickMesquita/challenge-backend-3/blob/master/docs/img/Badge_Alura_Challenge_back_First_v3.png" width=500></p>
